@@ -391,3 +391,25 @@ def test_run_ledger_api():
     }
     res_bad_name = client.post("/api/runs", json=bad_name_payload)
     assert res_bad_name.status_code == 400, "POST with invalid sandbox_name must return 400"
+
+
+# 12. Test README.md required phrases
+def test_readme_required_phrases():
+    readme_path = os.path.join(ROOT_DIR, "README.md")
+    assert os.path.isfile(readme_path), "README.md must exist at repository root"
+
+    with open(readme_path, "r", encoding="utf-8") as f:
+        readme_content = f.read()
+
+    required_phrases = [
+        "Problem statement",
+        "How I used Celesto",
+        "Eval report",
+        "Containment test",
+        "State and failure design",
+        "Setup",
+    ]
+
+    for phrase in required_phrases:
+        assert phrase in readme_content, f"Required phrase '{phrase}' missing in README.md"
+
