@@ -1,0 +1,7 @@
+{
+  "failed_step": 7,
+  "total_steps": 10,
+  "policy": "rollback",
+  "rationale": "When step 7 (untrusted package installation) fails due to a segmentation fault, build abort, or hostile tampering, adopting a 'rollback' recovery policy restores the microVM to the clean snapshot taken at step 5 in sub-second time. This completely purges any corrupted files, malicious dropped binaries, or incomplete artifacts without paying the cold-boot penalty of provisioning a new virtual machine or inheriting tainted state from an in-place resume.",
+  "trace_path": "reports/failure_trace.jsonl"
+}

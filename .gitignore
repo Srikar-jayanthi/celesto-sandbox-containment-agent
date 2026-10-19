@@ -29,6 +29,7 @@ wheels/
 .env.*.local
 *.pem
 *.key
+*.db
 
 # IDE / Editor
 .vscode/

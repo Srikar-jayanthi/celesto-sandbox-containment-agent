@@ -1,0 +1,23 @@
+{"ts": "2026-10-19T11:57:14.813990+00:00", "sandbox_name": "sbx-failpolicy01", "step": 1, "event": "step_start", "details": "Booting clean microVM guest environment"}
+{"ts": "2026-10-19T11:57:14.815145+00:00", "sandbox_name": "sbx-failpolicy01", "step": 1, "event": "step_complete", "details": "MicroVM guest ready"}
+{"ts": "2026-10-19T11:57:14.815782+00:00", "sandbox_name": "sbx-failpolicy01", "step": 2, "event": "step_start", "details": "Enforcing zero-trust network policy (outbound blocked)"}
+{"ts": "2026-10-19T11:57:14.816823+00:00", "sandbox_name": "sbx-failpolicy01", "step": 2, "event": "step_complete", "details": "Network policy active"}
+{"ts": "2026-10-19T11:57:14.818009+00:00", "sandbox_name": "sbx-failpolicy01", "step": 3, "event": "step_start", "details": "Activating hypervisor safety hooks and audit logger"}
+{"ts": "2026-10-19T11:57:14.819164+00:00", "sandbox_name": "sbx-failpolicy01", "step": 3, "event": "step_complete", "details": "Safety hooks engaged"}
+{"ts": "2026-10-19T11:57:14.819813+00:00", "sandbox_name": "sbx-failpolicy01", "step": 4, "event": "step_start", "details": "Fetching manifest for package 'suspicious-pkg-demo'"}
+{"ts": "2026-10-19T11:57:14.820784+00:00", "sandbox_name": "sbx-failpolicy01", "step": 4, "event": "step_complete", "details": "Metadata downloaded"}
+{"ts": "2026-10-19T11:57:14.821395+00:00", "sandbox_name": "sbx-failpolicy01", "step": 5, "event": "step_start", "details": "Creating snapshot checkpoint 'baseline-pre-detonation'"}
+{"ts": "2026-10-19T11:57:14.822134+00:00", "sandbox_name": "sbx-failpolicy01", "step": 5, "event": "step_complete", "details": "Snapshot created: baseline-pre-detonation"}
+{"ts": "2026-10-19T11:57:14.822817+00:00", "sandbox_name": "sbx-failpolicy01", "step": 6, "event": "step_start", "details": "Running static heuristics and AST taint analysis"}
+{"ts": "2026-10-19T11:57:14.823970+00:00", "sandbox_name": "sbx-failpolicy01", "step": 6, "event": "step_complete", "details": "Static analysis finished without syntax errors"}
+{"ts": "2026-10-19T11:57:14.824698+00:00", "sandbox_name": "sbx-failpolicy01", "step": 7, "event": "step_start", "details": "Executing package installation: pip install suspicious-pkg-demo"}
+{"ts": "2026-10-19T11:57:14.825409+00:00", "sandbox_name": "sbx-failpolicy01", "step": 7, "event": "step_failed", "details": "Package installation crashed: segmentation fault or dependency loop during build"}
+{"ts": "2026-10-19T11:57:14.826174+00:00", "sandbox_name": "sbx-failpolicy01", "step": 7, "event": "policy_applied", "details": "Applying recovery policy: rollback", "policy": "rollback"}
+{"ts": "2026-10-19T11:57:14.826893+00:00", "sandbox_name": "sbx-failpolicy01", "step": 7, "event": "recovery_action", "details": "Restored snapshot baseline-pre-detonation successfully"}
+{"ts": "2026-10-19T11:57:14.828113+00:00", "sandbox_name": "sbx-failpolicy01", "step": 7, "event": "step_complete", "details": "Step 7 resolved"}
+{"ts": "2026-10-19T11:57:14.828810+00:00", "sandbox_name": "sbx-failpolicy01", "step": 8, "event": "step_start", "details": "Inspecting filesystem mutations and socket attempts"}
+{"ts": "2026-10-19T11:57:14.830083+00:00", "sandbox_name": "sbx-failpolicy01", "step": 8, "event": "step_complete", "details": "Behavioral telemetry gathered"}
+{"ts": "2026-10-19T11:57:14.830824+00:00", "sandbox_name": "sbx-failpolicy01", "step": 9, "event": "step_start", "details": "Synthesizing risk assessment scorecard"}
+{"ts": "2026-10-19T11:57:14.831941+00:00", "sandbox_name": "sbx-failpolicy01", "step": 9, "event": "step_complete", "details": "Risk scorecard generated"}
+{"ts": "2026-10-19T11:57:14.832621+00:00", "sandbox_name": "sbx-failpolicy01", "step": 10, "event": "step_start", "details": "Cleaning up sandbox environment and recording results"}
+{"ts": "2026-10-19T11:57:14.833420+00:00", "sandbox_name": "sbx-failpolicy01", "step": 10, "event": "step_complete", "details": "Sandbox deleted cleanly"}

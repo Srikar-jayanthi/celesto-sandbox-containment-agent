@@ -1,0 +1,6 @@
+{
+  "who": "DevOps and SecOps security engineers reviewing untrusted open-source dependencies before enterprise deployment",
+  "agent_work": "Detonates untrusted packages in Celesto microVMs, analyzes behavioral indicators, intercepts exploit attempts via safety hooks, and isolates network egress",
+  "proof_output": "Comprehensive vulnerability scorecard and behavioral audit log with verified isolation metrics",
+  "idea_source": "idea_bank"
+}

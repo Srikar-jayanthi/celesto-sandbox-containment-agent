@@ -1,5 +1,5 @@
 import re
-from datetime import datetime
+from datetime import datetime, timezone
 from typing import Optional, Literal
 from pydantic import BaseModel, field_validator
 from sqlalchemy import Column, String, DateTime
@@ -20,8 +20,9 @@ class RunRecord(Base):
     problem_id = Column(String(128), nullable=False)
     state = Column(String(64), nullable=False, index=True)
     execution_target = Column(String(64), nullable=False)
-    created_at = Column(DateTime(timezone=True), default=datetime.utcnow)
-    updated_at = Column(DateTime(timezone=True), default=datetime.utcnow, onupdate=datetime.utcnow)
+    created_at = Column(DateTime(timezone=True), default=lambda: datetime.now(timezone.utc))
+    updated_at = Column(DateTime(timezone=True), default=lambda: datetime.now(timezone.utc), onupdate=lambda: datetime.now(timezone.utc))
+
 
     def to_dict(self):
         return {

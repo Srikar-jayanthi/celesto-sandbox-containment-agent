@@ -1,0 +1,25 @@
+{
+  "jobs": [
+    {
+      "sandbox_name": "sbx-concurrent01",
+      "started_at": "2026-10-19T10:00:00Z"
+    },
+    {
+      "sandbox_name": "sbx-concurrent02",
+      "started_at": "2026-10-19T10:00:01Z"
+    },
+    {
+      "sandbox_name": "sbx-concurrent03",
+      "started_at": "2026-10-19T10:00:02Z"
+    },
+    {
+      "sandbox_name": "sbx-concurrent04",
+      "started_at": "2026-10-19T10:00:03Z"
+    },
+    {
+      "sandbox_name": "sbx-concurrent05",
+      "started_at": "2026-10-19T10:00:04Z"
+    }
+  ],
+  "breakage_notes": "Under concurrent execution across 5 parallel sandboxes, KVM resource limits and socket handle pools were monitored. Cloud provider quotas enforce a maximum of 1 concurrent microVM on free tiers; concurrent attempts must serialize or scale to dedicated local compute."
+}

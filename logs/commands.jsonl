@@ -1,0 +1,94 @@
+{"ts": "2026-10-19T11:57:14.744695+00:00", "sandbox_name": "sbx-relrun0001", "command": "iptables -P OUTPUT DROP", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-19T11:57:14.745554+00:00", "sandbox_name": "sbx-relrun0001", "command": "mkdir -p /sandbox/pkg", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-19T11:57:14.746148+00:00", "sandbox_name": "sbx-relrun0001", "command": "pip install --no-index /sandbox/pkg/demo.whl", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-19T11:57:14.746441+00:00", "sandbox_name": "sbx-relrun0001", "command": "echo 'Detonation complete'", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-19T11:57:14.748296+00:00", "sandbox_name": "sbx-relrun0002", "command": "iptables -P OUTPUT DROP", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-19T11:57:14.748642+00:00", "sandbox_name": "sbx-relrun0002", "command": "mkdir -p /sandbox/pkg", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-19T11:57:14.749000+00:00", "sandbox_name": "sbx-relrun0002", "command": "pip install --no-index /sandbox/pkg/demo.whl", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-19T11:57:14.749626+00:00", "sandbox_name": "sbx-relrun0002", "command": "echo 'Detonation complete'", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-19T11:57:14.750856+00:00", "sandbox_name": "sbx-relrun0003", "command": "iptables -P OUTPUT DROP", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-19T11:57:14.751254+00:00", "sandbox_name": "sbx-relrun0003", "command": "mkdir -p /sandbox/pkg", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-19T11:57:14.751622+00:00", "sandbox_name": "sbx-relrun0003", "command": "pip install --no-index /sandbox/pkg/demo.whl", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-19T11:57:14.752057+00:00", "sandbox_name": "sbx-relrun0003", "command": "echo 'Detonation complete'", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-19T11:57:14.753304+00:00", "sandbox_name": "sbx-relrun0004", "command": "iptables -P OUTPUT DROP", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-19T11:57:14.753850+00:00", "sandbox_name": "sbx-relrun0004", "command": "mkdir -p /sandbox/pkg", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-19T11:57:14.754770+00:00", "sandbox_name": "sbx-relrun0004", "command": "pip install --no-index /sandbox/pkg/demo.whl", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-19T11:57:14.755791+00:00", "sandbox_name": "sbx-relrun0004", "command": "echo 'Detonation complete'", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-19T11:57:14.757955+00:00", "sandbox_name": "sbx-relrun0005", "command": "iptables -P OUTPUT DROP", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-19T11:57:14.758437+00:00", "sandbox_name": "sbx-relrun0005", "command": "mkdir -p /sandbox/pkg", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-19T11:57:14.759108+00:00", "sandbox_name": "sbx-relrun0005", "command": "pip install --no-index /sandbox/pkg/demo.whl", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-19T11:57:14.759603+00:00", "sandbox_name": "sbx-relrun0005", "command": "echo 'Detonation complete'", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-19T11:57:14.761278+00:00", "sandbox_name": "sbx-relrun0006", "command": "iptables -P OUTPUT DROP", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-19T11:57:14.764120+00:00", "sandbox_name": "sbx-relrun0006", "command": "mkdir -p /sandbox/pkg", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-19T11:57:14.764573+00:00", "sandbox_name": "sbx-relrun0006", "command": "pip install --no-index /sandbox/pkg/demo.whl", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-19T11:57:14.764996+00:00", "sandbox_name": "sbx-relrun0006", "command": "echo 'Detonation complete'", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-19T11:57:14.766498+00:00", "sandbox_name": "sbx-relrun0007", "command": "iptables -P OUTPUT DROP", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-19T11:57:14.766880+00:00", "sandbox_name": "sbx-relrun0007", "command": "mkdir -p /sandbox/pkg", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-19T11:57:14.767371+00:00", "sandbox_name": "sbx-relrun0007", "command": "pip install --no-index /sandbox/pkg/demo.whl", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-19T11:57:14.767784+00:00", "sandbox_name": "sbx-relrun0007", "command": "echo 'Detonation complete'", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-19T11:57:14.768769+00:00", "sandbox_name": "sbx-relrun0008", "command": "iptables -P OUTPUT DROP", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-19T11:57:14.769159+00:00", "sandbox_name": "sbx-relrun0008", "command": "mkdir -p /sandbox/pkg", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-19T11:57:14.769620+00:00", "sandbox_name": "sbx-relrun0008", "command": "pip install --no-index /sandbox/pkg/corrupt.whl || echo 'Failed as expected'", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-19T11:57:14.770640+00:00", "sandbox_name": "sbx-relrun0009", "command": "iptables -P OUTPUT DROP", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-19T11:57:14.771028+00:00", "sandbox_name": "sbx-relrun0009", "command": "mkdir -p /sandbox/pkg", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-19T11:57:14.771526+00:00", "sandbox_name": "sbx-relrun0009", "command": "pip install --no-index /sandbox/pkg/demo.whl", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-19T11:57:14.771972+00:00", "sandbox_name": "sbx-relrun0009", "command": "echo 'Detonation complete'", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-19T11:57:14.773050+00:00", "sandbox_name": "sbx-relrun0010", "command": "iptables -P OUTPUT DROP", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-19T11:57:14.773699+00:00", "sandbox_name": "sbx-relrun0010", "command": "mkdir -p /sandbox/pkg", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-19T11:57:14.774356+00:00", "sandbox_name": "sbx-relrun0010", "command": "pip install --no-index /sandbox/pkg/demo.whl", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-19T11:57:14.774818+00:00", "sandbox_name": "sbx-relrun0010", "command": "echo 'Detonation complete'", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-19T11:57:14.775867+00:00", "sandbox_name": "sbx-relrun0011", "command": "iptables -P OUTPUT DROP", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-19T11:57:14.776197+00:00", "sandbox_name": "sbx-relrun0011", "command": "mkdir -p /sandbox/pkg", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-19T11:57:14.776484+00:00", "sandbox_name": "sbx-relrun0011", "command": "pip install --no-index /sandbox/pkg/demo.whl", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-19T11:57:14.776752+00:00", "sandbox_name": "sbx-relrun0011", "command": "echo 'Detonation complete'", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-19T11:57:14.777660+00:00", "sandbox_name": "sbx-relrun0012", "command": "iptables -P OUTPUT DROP", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-19T11:57:14.777951+00:00", "sandbox_name": "sbx-relrun0012", "command": "mkdir -p /sandbox/pkg", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-19T11:57:14.778218+00:00", "sandbox_name": "sbx-relrun0012", "command": "pip install --no-index /sandbox/pkg/demo.whl", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-19T11:57:14.778488+00:00", "sandbox_name": "sbx-relrun0012", "command": "echo 'Detonation complete'", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-19T11:57:14.779285+00:00", "sandbox_name": "sbx-relrun0013", "command": "iptables -P OUTPUT DROP", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-19T11:57:14.779560+00:00", "sandbox_name": "sbx-relrun0013", "command": "mkdir -p /sandbox/pkg", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-19T11:57:14.779851+00:00", "sandbox_name": "sbx-relrun0013", "command": "pip install --no-index /sandbox/pkg/demo.whl", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-19T11:57:14.780370+00:00", "sandbox_name": "sbx-relrun0013", "command": "echo 'Detonation complete'", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-19T11:57:14.781662+00:00", "sandbox_name": "sbx-relrun0014", "command": "iptables -P OUTPUT DROP", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-19T11:57:14.782130+00:00", "sandbox_name": "sbx-relrun0014", "command": "mkdir -p /sandbox/pkg", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-19T11:57:14.782721+00:00", "sandbox_name": "sbx-relrun0014", "command": "pip install --no-index /sandbox/pkg/demo.whl", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-19T11:57:14.783271+00:00", "sandbox_name": "sbx-relrun0014", "command": "echo 'Detonation complete'", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-19T11:57:14.784521+00:00", "sandbox_name": "sbx-relrun0015", "command": "iptables -P OUTPUT DROP", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-19T11:57:14.784993+00:00", "sandbox_name": "sbx-relrun0015", "command": "mkdir -p /sandbox/pkg", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-19T11:57:14.785376+00:00", "sandbox_name": "sbx-relrun0015", "command": "pip install --no-index /sandbox/pkg/demo.whl", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-19T11:57:14.785802+00:00", "sandbox_name": "sbx-relrun0015", "command": "echo 'Detonation complete'", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-19T11:57:14.786915+00:00", "sandbox_name": "sbx-relrun0016", "command": "iptables -P OUTPUT DROP", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-19T11:57:14.787290+00:00", "sandbox_name": "sbx-relrun0016", "command": "mkdir -p /sandbox/pkg", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-19T11:57:14.787683+00:00", "sandbox_name": "sbx-relrun0016", "command": "pip install --no-index /sandbox/pkg/demo.whl", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-19T11:57:14.788065+00:00", "sandbox_name": "sbx-relrun0016", "command": "echo 'Detonation complete'", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-19T11:57:14.789625+00:00", "sandbox_name": "sbx-relrun0017", "command": "iptables -P OUTPUT DROP", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-19T11:57:14.790033+00:00", "sandbox_name": "sbx-relrun0017", "command": "mkdir -p /sandbox/pkg", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-19T11:57:14.790423+00:00", "sandbox_name": "sbx-relrun0017", "command": "pip install --no-index /sandbox/pkg/demo.whl", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-19T11:57:14.790799+00:00", "sandbox_name": "sbx-relrun0017", "command": "echo 'Detonation complete'", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-19T11:57:14.791770+00:00", "sandbox_name": "sbx-relrun0018", "command": "iptables -P OUTPUT DROP", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-19T11:57:14.792235+00:00", "sandbox_name": "sbx-relrun0018", "command": "mkdir -p /sandbox/pkg", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-19T11:57:14.792650+00:00", "sandbox_name": "sbx-relrun0018", "command": "pip install --no-index /sandbox/pkg/demo.whl", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-19T11:57:14.793020+00:00", "sandbox_name": "sbx-relrun0018", "command": "echo 'Detonation complete'", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-19T11:57:14.794187+00:00", "sandbox_name": "sbx-relrun0019", "command": "iptables -P OUTPUT DROP", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-19T11:57:14.796569+00:00", "sandbox_name": "sbx-relrun0019", "command": "mkdir -p /sandbox/pkg", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-19T11:57:14.797238+00:00", "sandbox_name": "sbx-relrun0019", "command": "pip install --no-index /sandbox/pkg/demo.whl", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-19T11:57:14.797690+00:00", "sandbox_name": "sbx-relrun0019", "command": "echo 'Detonation complete'", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-19T11:57:14.798587+00:00", "sandbox_name": "sbx-relrun0020", "command": "iptables -P OUTPUT DROP", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-19T11:57:14.799069+00:00", "sandbox_name": "sbx-relrun0020", "command": "mkdir -p /sandbox/pkg", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-19T11:57:14.799498+00:00", "sandbox_name": "sbx-relrun0020", "command": "pip install --no-index /sandbox/pkg/demo.whl", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-19T11:57:14.800075+00:00", "sandbox_name": "sbx-relrun0020", "command": "echo 'Detonation complete'", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-19T11:57:14.811064+00:00", "sandbox_name": "sbx-containment01", "command": "pip install malicious-backdoor-pkg", "decision": "block", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-19T11:57:14.811559+00:00", "sandbox_name": "sbx-containment01", "command": "echo 'Containment verification passed'", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-19T11:57:14.816481+00:00", "sandbox_name": "sbx-failpolicy01", "command": "iptables -P OUTPUT DROP", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-19T11:57:14.818726+00:00", "sandbox_name": "sbx-failpolicy01", "command": "echo 'Safety hooks initialized'", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-19T11:57:14.820413+00:00", "sandbox_name": "sbx-failpolicy01", "command": "mkdir -p /sandbox/pkg && echo 'Package: suspicious-pkg-demo' > /sandbox/pkg/metadata.json", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-19T11:57:14.823450+00:00", "sandbox_name": "sbx-failpolicy01", "command": "python3 -m py_compile /sandbox/pkg/metadata.json || true", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-19T11:57:14.827696+00:00", "sandbox_name": "sbx-failpolicy01", "command": "echo 'Remediation completed after step 7 recovery'", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-19T11:57:14.829628+00:00", "sandbox_name": "sbx-failpolicy01", "command": "find /sandbox -type f -mmin -5", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-19T11:57:14.831511+00:00", "sandbox_name": "sbx-failpolicy01", "command": "echo 'Risk score: 15/100 (LOW)' > /sandbox/risk_scorecard.json", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-19T11:57:14.836119+00:00", "sandbox_name": "sbx-concurrent01", "command": "echo 'Running concurrent task'", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-19T11:57:14.837082+00:00", "sandbox_name": "sbx-concurrent02", "command": "echo 'Running concurrent task'", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-19T11:57:14.838604+00:00", "sandbox_name": "sbx-concurrent03", "command": "echo 'Running concurrent task'", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-19T11:57:14.839398+00:00", "sandbox_name": "sbx-concurrent04", "command": "echo 'Running concurrent task'", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-19T11:57:14.840131+00:00", "sandbox_name": "sbx-concurrent05", "command": "echo 'Running concurrent task'", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-19T11:57:14.840894+00:00", "sandbox_name": "sbx-seeddemo1", "command": "echo 'Initial seed initialization demo completed'", "decision": "allow", "execution_target": "celesto_sandbox"}

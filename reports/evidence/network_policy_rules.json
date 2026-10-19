@@ -1,0 +1,8 @@
+{
+  "firewall": "celesto-microvm-netpolicy",
+  "default_egress": "DROP",
+  "default_ingress": "DROP",
+  "allowed_destinations": [],
+  "enforcement_layer": "vsock-tun-tap-filter",
+  "status": "enforced"
+}

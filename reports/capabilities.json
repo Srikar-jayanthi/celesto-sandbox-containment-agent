@@ -1,0 +1,19 @@
+{
+  "capabilities": [
+    {
+      "id": "safety_hooks",
+      "why": "Safety hooks evaluate and intercept every command before dispatch to the guest VM kernel. Malicious commands or exfiltration patterns are trapped and blocked deterministically at the hypervisor boundary before execution.",
+      "evidence_path": "reports/evidence/safety_hooks_audit.log"
+    },
+    {
+      "id": "network_policy",
+      "why": "Network policy enforces strict guest outbound traffic isolation by turning off external internet or gating to whitelisted destinations, preventing prompt injection payloads and suspicious packages from exfiltrating sensitive tokens or environment variables.",
+      "evidence_path": "reports/evidence/network_policy_rules.json"
+    },
+    {
+      "id": "snapshots",
+      "why": "Snapshots provide point-in-time microVM memory and disk state capture, enabling instant deterministic rollbacks to clean baselines when risky installation commands fail or exhibit hostile behavior during automated triage.",
+      "evidence_path": "reports/evidence/snapshot_baseline.json"
+    }
+  ]
+}

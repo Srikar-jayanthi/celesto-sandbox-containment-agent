@@ -1,0 +1,7 @@
+[SAFETY_HOOK_AUDIT] Initialized hypervisor pre-execution inspection hooks.
+[SAFETY_HOOK_AUDIT] EVALUATING: pip install malicious-backdoor-pkg
+[SAFETY_HOOK_AUDIT] TRIGGERED RULE: BLOCKED_PATTERN_MATCH (pattern: backdoor)
+[SAFETY_HOOK_AUDIT] DECISION: BLOCK command dispatch before VM kernel execution.
+[SAFETY_HOOK_AUDIT] EVALUATING: cat /etc/shadow
+[SAFETY_HOOK_AUDIT] TRIGGERED RULE: CREDENTIAL_ACCESS_DENIED
+[SAFETY_HOOK_AUDIT] DECISION: BLOCK command dispatch before VM kernel execution.

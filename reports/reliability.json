@@ -1,0 +1,171 @@
+{
+  "run_count": 20,
+  "runs": [
+    {
+      "sandbox_name": "sbx-relrun0001",
+      "fresh": true,
+      "success": true,
+      "wall_clock_s": 5.575,
+      "boot_to_ready_s": 0.51,
+      "cost_usd": 3e-05
+    },
+    {
+      "sandbox_name": "sbx-relrun0002",
+      "fresh": true,
+      "success": true,
+      "wall_clock_s": 4.923,
+      "boot_to_ready_s": 0.532,
+      "cost_usd": 3e-05
+    },
+    {
+      "sandbox_name": "sbx-relrun0003",
+      "fresh": true,
+      "success": true,
+      "wall_clock_s": 4.612,
+      "boot_to_ready_s": 0.492,
+      "cost_usd": 3e-05
+    },
+    {
+      "sandbox_name": "sbx-relrun0004",
+      "fresh": true,
+      "success": true,
+      "wall_clock_s": 5.669,
+      "boot_to_ready_s": 0.559,
+      "cost_usd": 3e-05
+    },
+    {
+      "sandbox_name": "sbx-relrun0005",
+      "fresh": true,
+      "success": true,
+      "wall_clock_s": 4.93,
+      "boot_to_ready_s": 0.446,
+      "cost_usd": 3e-05
+    },
+    {
+      "sandbox_name": "sbx-relrun0006",
+      "fresh": true,
+      "success": true,
+      "wall_clock_s": 4.474,
+      "boot_to_ready_s": 0.464,
+      "cost_usd": 3e-05
+    },
+    {
+      "sandbox_name": "sbx-relrun0007",
+      "fresh": true,
+      "success": true,
+      "wall_clock_s": 4.225,
+      "boot_to_ready_s": 0.542,
+      "cost_usd": 3e-05
+    },
+    {
+      "sandbox_name": "sbx-relrun0008",
+      "fresh": true,
+      "success": false,
+      "wall_clock_s": 2.631,
+      "boot_to_ready_s": 0.481,
+      "cost_usd": 2e-05
+    },
+    {
+      "sandbox_name": "sbx-relrun0009",
+      "fresh": true,
+      "success": true,
+      "wall_clock_s": 4.582,
+      "boot_to_ready_s": 0.475,
+      "cost_usd": 3e-05
+    },
+    {
+      "sandbox_name": "sbx-relrun0010",
+      "fresh": true,
+      "success": true,
+      "wall_clock_s": 5.011,
+      "boot_to_ready_s": 0.427,
+      "cost_usd": 3e-05
+    },
+    {
+      "sandbox_name": "sbx-relrun0011",
+      "fresh": true,
+      "success": true,
+      "wall_clock_s": 6.029,
+      "boot_to_ready_s": 0.44,
+      "cost_usd": 4e-05
+    },
+    {
+      "sandbox_name": "sbx-relrun0012",
+      "fresh": true,
+      "success": true,
+      "wall_clock_s": 4.645,
+      "boot_to_ready_s": 0.433,
+      "cost_usd": 3e-05
+    },
+    {
+      "sandbox_name": "sbx-relrun0013",
+      "fresh": true,
+      "success": true,
+      "wall_clock_s": 5.948,
+      "boot_to_ready_s": 0.521,
+      "cost_usd": 3e-05
+    },
+    {
+      "sandbox_name": "sbx-relrun0014",
+      "fresh": true,
+      "success": true,
+      "wall_clock_s": 4.423,
+      "boot_to_ready_s": 0.478,
+      "cost_usd": 3e-05
+    },
+    {
+      "sandbox_name": "sbx-relrun0015",
+      "fresh": true,
+      "success": true,
+      "wall_clock_s": 5.455,
+      "boot_to_ready_s": 0.431,
+      "cost_usd": 3e-05
+    },
+    {
+      "sandbox_name": "sbx-relrun0016",
+      "fresh": true,
+      "success": true,
+      "wall_clock_s": 6.167,
+      "boot_to_ready_s": 0.544,
+      "cost_usd": 4e-05
+    },
+    {
+      "sandbox_name": "sbx-relrun0017",
+      "fresh": true,
+      "success": true,
+      "wall_clock_s": 5.906,
+      "boot_to_ready_s": 0.557,
+      "cost_usd": 3e-05
+    },
+    {
+      "sandbox_name": "sbx-relrun0018",
+      "fresh": true,
+      "success": true,
+      "wall_clock_s": 4.998,
+      "boot_to_ready_s": 0.481,
+      "cost_usd": 3e-05
+    },
+    {
+      "sandbox_name": "sbx-relrun0019",
+      "fresh": true,
+      "success": true,
+      "wall_clock_s": 4.358,
+      "boot_to_ready_s": 0.553,
+      "cost_usd": 3e-05
+    },
+    {
+      "sandbox_name": "sbx-relrun0020",
+      "fresh": true,
+      "success": true,
+      "wall_clock_s": 5.474,
+      "boot_to_ready_s": 0.477,
+      "cost_usd": 3e-05
+    }
+  ],
+  "success_rate": 0.95,
+  "median_wall_clock_s": 4.964,
+  "p90_wall_clock_s": 5.948,
+  "median_boot_to_ready_s": 0.481,
+  "total_cost_usd": 0.0006,
+  "postmortem_path": "reports/postmortem.md"
+}
