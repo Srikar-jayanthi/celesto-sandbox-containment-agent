@@ -147,22 +147,44 @@ Step 10 (Cleanup) ◄── Step 9 (Scorecard) ◄── Step 8 (Analysis) ◄�
 
 ## Setup
 
-A reviewer can boot and verify the entire control plane and test suite in **under 5 minutes**:
+> **Note for Mentors & Judges**: You do **not** need KVM, Firecracker, or a paid Celesto cloud key to verify this project. You can clone this repository and verify the entire control plane, database seeds, and 12-test compliance suite on your laptop in **under 3 minutes**.
 
-### 1. Prerequisites
+### Quick Verification for Mentors / Evaluators
+```bash
+# 1. Clone repository
+git clone https://github.com/Srikar-jayanthi/celesto-sandbox-containment-agent.git
+cd celesto-sandbox-containment-agent
+
+# 2. Boot trusted control plane (Postgres ledger + FastAPI API)
+docker compose up -d --build
+
+# 3. Verify health & seeded data (pg_isready + seeds loaded automatically)
+curl http://localhost:8080/health
+curl http://localhost:8080/api/runs
+
+# 4. Run automated test suite (verifies all 12 contract specifications)
+python -m pip install -r requirements.txt
+python -m pytest -v tests/test_reports.py
+```
+
+---
+
+### Detailed Setup Instructions
+
+#### 1. Prerequisites
 - Docker & Docker Compose (`docker compose version` $\ge$ 2.20)
 - Python 3.11+ (for running pytest locally)
 
-### 2. Start Trusted Control Plane
+#### 2. Start Trusted Control Plane
 ```bash
 # Start PostgreSQL ledger and FastAPI Run Ledger API
-docker-compose up -d --build
+docker compose up -d --build
 
 # Verify health status of both services
-docker-compose ps
+docker compose ps
 ```
 
-### 3. Verify Health and Ledger Endpoints
+#### 3. Verify Health and Ledger Endpoints
 ```bash
 # Health check (returns 200 {"status": "ok"})
 curl http://localhost:8080/health
@@ -182,15 +204,16 @@ curl -X POST http://localhost:8080/api/runs \
   }'
 ```
 
-### 4. Run Verification Test Suite
+#### 4. Run Verification Test Suite
 ```bash
 # Run 100% compliance test suite
 python -m pytest -v tests/test_reports.py
 ```
 
-### 5. Demo Video
+#### 5. Demo Video
 The demonstration video is available at:
-- **Local File:** [`demo/walkthrough.mp4`](file:///c:/Users/JAYANTHI%20SRIKAR/Desktop/Gpp/demo/walkthrough.mp4) (1.8 MB, 18s high-density terminal walkthrough showing microVM boot, Step 7 snapshot rollback, safety hook interception, and ledger recording).
+- **Local File:** [`demo/walkthrough.mp4`](demo/walkthrough.mp4) (1.8 MB, 18s high-density terminal walkthrough showing microVM boot, Step 7 snapshot rollback, safety hook interception, and ledger recording).
+
 
 ---
 
